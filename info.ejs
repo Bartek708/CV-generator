@@ -1,0 +1,20 @@
+
+<h2>Info</h2>
+
+<ul>
+    <% data.forEach(function(dta) { %>
+        <li>Name: <%= dta.name %> <br> Age: <%= dta.age %> <br> Education: <%= dta.education %> <br> <img src= <%= dta.picture %> width="70" height="70" /> 
+            <% dta.qualification.forEach(function(qual) { %>
+        Degree: <%= qual.degree %> <br>  />
+    
+    <% }); %>
+    </li>
+    <% }); %>
+    
+    
+    <% dta.qualification.forEach(function(qual) { %>
+        <li>Degree: <%= qual.degree %> <br>  />
+    </li>
+    <% }); %>
+    
+</ul>

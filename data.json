@@ -1,0 +1,34 @@
+[
+    {
+        "firstname":"Bartek",
+        "lastname": "Gembala",
+        "location": "Oslo",
+        "age":25,
+        "qualification":[
+            {
+                "degree": "Informatikk: programmering og nettverk"
+            },
+            {
+                "degree": "Network and System Administration"
+            }
+        ],
+        "experience":[
+            {
+                "job": "Fullstack Java-utvikler"
+            },
+            {
+                "job": "Pleieassistent"
+            }
+        ],
+        "picture":"/static/bar.jpg",
+        "profiles": [
+            {
+                "link": "linkedin.com"
+            },
+            {
+                "link": "github.com"
+            }
+            
+        ]
+    }
+ ]
