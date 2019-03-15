@@ -3,12 +3,17 @@ html
     head 
     
     body
+
+      div(class="w3-display-container ")
+        img(src=picture, alt=firstname,width="200" height="200")
       h2 #{firstname} #{lastname}
       p #{position}
       p #{location}
       p #{age}
       p #{mail}
       p #{phone}
+      
+      
       
       h2 Experience:
         each job in experience

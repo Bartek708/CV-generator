@@ -1,34 +1,35 @@
-[
-    {
-        "firstname":"Bartek",
-        "lastname": "Gembala",
+  {
+        "firstname":"name",
+        "lastname": "last",
         "location": "Oslo",
         "age":25,
-        "qualification":[
+        "phone": "1234",
+        "mail": "spmoe@hotmail.com",
+        "position": "Developer",
+        "education":[
             {
-                "degree": "Informatikk: programmering og nettverk"
+                "degree": "Informatikk: programmering og nettverk",
+                "description": "blabla"
             },
             {
-                "degree": "Network and System Administration"
+                "degree": "Network and System Administration",
+                "description": "blabla"
             }
         ],
         "experience":[
             {
-                "job": "Fullstack Java-utvikler"
+                "job": "Fullstack Java-utvikler",
+                "description": "blabla"
             },
             {
-                "job": "Pleieassistent"
+                "job": "Pleieassistent",
+                "description": "blabla"
             }
         ],
-        "picture":"/static/bar.jpg",
-        "profiles": [
-            {
-                "link": "linkedin.com"
-            },
-            {
-                "link": "github.com"
-            }
-            
-        ]
+        "picture":"http://cdn.shopify.com/s/files/1/0257/6087/products/Pikachu_Single_Front_dc998741-c845-43a8-91c9-c1c97bec17a4.png?v=1523938908",
+        "profiles": {
+                "linkedin": "http://www.linkedin.com",
+                "github": "http://www.github.com"
+                }
     }
- ]
+
