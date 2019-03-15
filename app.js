@@ -1,6 +1,7 @@
 const express = require('express');
 var app = express();
 var path = require('path');
+const fs = require('fs');
 app.use(express.static('resources'));
 
 app.set('views', './views')
