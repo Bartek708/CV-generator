@@ -1,0 +1,23 @@
+html
+    title CV
+    head 
+    
+    body
+      h2 #{firstname} #{lastname}
+      p #{position}
+      p #{location}
+      p #{age}
+      p #{mail}
+      p #{phone}
+      
+      h2 Experience:
+        each job in experience
+          h5 #{job.job}
+          p #{job.description}
+      
+      br
+      h2 Education:
+        each grade in education
+          h5 #{grade.degree}
+          p #{grade.description}
+      
