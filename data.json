@@ -1,32 +1,32 @@
   {
-        "firstname":"name",
-        "lastname": "last",
+        "firstname":"Bartek",
+        "lastname": "Gembala",
         "location": "Oslo",
         "age":25,
-        "phone": "1234",
-        "mail": "spmoe@hotmail.com",
+        "phone": "97747859",
+        "mail": "bar.gem@hotmail.com",
         "position": "Developer",
         "education":[
             {
                 "degree": "Informatikk: programmering og nettverk",
-                "description": "blabla"
+                "description": "Bachelorgraden gir kunnskap om teorier, prinsipper og metoder for programmering i enkeltstående systemer, samtidig systemer i nettverk. Dette har bidratt til å lære teknikkene om hvordan å lage pålitelige, fleksible, brukervennlige og effektive programmer. Denne graden har gitt breddekunnskap innenfor programmering og en grundig forståelse over hvordan maskiner og programmer er bygget opp, dette innebærer backend- og frontend programmering."
             },
             {
                 "degree": "Network and System Administration",
-                "description": "blabla"
+                "description": "En mastergrad i samarbeid med OsloMet der man lærer teori, prinsipper og praksis ved systemadministrasjon deriblant, nettverk og systemdesign, analyser, effektivitet og sikkerhet. Masterstudiet fokuserte på teorier, prinsipper og praktiske løsninger innenfor systemadministrasjon, nettverk og sikkerhet. Det involverte jobbing med jenkins for å implementere kontinuerlig integrasjon og deploy av systemer. Sensu har blitt brukt til monitorering og for å automatisere kontroll ved hendelser. Docker har også blitt brukt til å skalere systemer utifra innkommende trafikk. Emnene har i tillegg dekket scripting og dokumentasjon av komplekse systemer."
             }
         ],
         "experience":[
             {
                 "job": "Fullstack Java-utvikler",
-                "description": "blabla"
+                "description": "Konsulenten har gjennom denne jobben tilegnet seg erfaring som gjør han en ettertraktet Fullstack Javautvikler med frontend-spesialisering. Har fått intensiv opplæring i blant annet java og javastack, samtidig jobbet med maven, SQL, Spring Data m.m."
             },
             {
                 "job": "Pleieassistent",
-                "description": "blabla"
+                "description": "Hos hjemmepleien hadde Bartek ansvar for pasienter, noe som har lært han å være punktlig, ansvarlig og ikke minst økte hans evne til 'kundebehandling', forstå hva pasienten ville ha og hva de trengte."
             }
         ],
-        "picture":"http://cdn.shopify.com/s/files/1/0257/6087/products/Pikachu_Single_Front_dc998741-c845-43a8-91c9-c1c97bec17a4.png?v=1523938908",
+        "picture":"/static/bar.jpg",
         "profiles": {
                 "linkedin": "http://www.linkedin.com",
                 "github": "http://www.github.com"

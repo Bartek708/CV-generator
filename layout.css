@@ -1,0 +1,13 @@
+body {
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+div.test{
+width: 115px;
+padding: 10px;
+border: 2px solid #000;
+border-radius: 15px;
+-moz-border-radius: 15px;
+}
+
